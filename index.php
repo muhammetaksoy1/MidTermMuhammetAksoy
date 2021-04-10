@@ -1,3 +1,4 @@
+<?php include("Automobile.php");?>  
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,9 +9,15 @@
 </head>
 <body>
 
-<?php
-echo "Welcome to php world...";
-?>
+<form action="get-method.php" method="get"> 
+<input type="text" name="LicencePlate" placeholder="LicencePlate" /> 
+<input type="text" name="Brand" placeholder="Brand" /> 
+<input type="text" name="Model" placeholder="Model" /> 
+<input type="text" name="ModelYear" placeholder="ModelYear" /> 
+<input type="text" name="Color" placeholder="Color" /> 
 
+<input type="submit" name="submit" /> 
+//I shoul use $_GET method 
+</form> 
 </body>
 </html>
