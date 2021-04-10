@@ -23,9 +23,10 @@
             $this->ModelYear = $ModelYear;
             $this->Color = $Color;
         }
-        
+
         public function __toString(){
             return $this->LicencePlate;
+            
         }
 
     }
